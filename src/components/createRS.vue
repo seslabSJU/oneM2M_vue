@@ -102,7 +102,7 @@
                 id="xm2morigin"
                 v-model="data_obj.X_M2M_Origin"
                 :state="data_obj.X_M2M_Origin.length >= 1"
-                placeholder="Enter X-M2M Origin"
+                placeholder="aei(C+any string)"
                 trim
               ></b-form-input>
               <br />
@@ -199,7 +199,7 @@
                 id="xm2morigin"
                 v-model="data_obj.X_M2M_Origin"
                 :state="data_obj.X_M2M_Origin.length >= 1"
-                placeholder="Enter X-M2M Origin"
+                placeholder="aei(C+any string)"
                 trim
               ></b-form-input>
               <br />
@@ -297,7 +297,7 @@
                 id="xm2morigin"
                 v-model="data_obj.X_M2M_Origin"
                 :state="data_obj.X_M2M_Origin.length >= 1"
-                placeholder="Enter X-M2M Origin"
+                placeholder="aei(C+any string)"
                 trim
               ></b-form-input>
               <br />
@@ -385,7 +385,7 @@
                 id="xm2morigin"
                 v-model="data_obj.X_M2M_Origin"
                 :state="data_obj.X_M2M_Origin.length >= 1"
-                placeholder="Enter X-M2M Origin"
+                placeholder="aei(C+any string)"
                 trim
               ></b-form-input>
               <br />
@@ -673,7 +673,7 @@ export default {
         Platform_addr: "127.0.0.1:3000",
         Res_Id: "TinyIoT",
         X_M2M_RI: "12345",
-        X_M2M_Origin: "aei(C+any string)",
+        X_M2M_Origin: "",
         Accept: "application/json",
 
         rn: "",
